@@ -1,0 +1,42 @@
+
+Overall goal:
+	Filter windows process tasks based on memory, process name
+
+The file "tasklist_01.txt" was created using "tasklist > tasklist_01.txt" on a command prompt.
+
+Step 01:
+	- Check if you can run "tasklist" on your windows machine and save it to another file.
+	- Compare if the running processes are similar or different.
+
+Step 02:
+Create python script for each problem below.
+
+Problem A: Script A
+	Use the file "tasklist_01.txt" to identify the process utilizing maximum memory.
+	Note: 
+		- This should be a sum of all the memories used by a particular process, not just a single line.
+		- Be mindful of the spaces between the columns when splitting.
+
+Problem B: Script B
+	Create python script to ping the "tasklist" process in windows and save it to a file (with custom filename)
+
+Problem C: Script C
+	Create a python script which will ping the "tasklist" process in windows and generate output in terminal
+	- Create argument in the script to request the process name utilizing "maximum" or "minimum" memory.
+	- Create argument in the script to request the total memory used by a particular process.
+
+	Note: This time the script should have following structure: 
+		python script_c.py "getprocess_withmax:True/False getprocess_withmin:True/False getprocess_from:firefox.exe,office.exe"
+	
+
+At the end of the project session discuss the following:
+	- What is the difference in use cases of script from Problem A, B and C
+	- What is a positional argument? 
+	- What does windows "tasklist" command do?
+	- Which python libraries did you use to invoke the "tasklist" process.
+	- Can you invoke similar other windows process 
+		(directly on windows command prompt and also by embedding it inside the python process)?
+	- Why was it necessary to read the whole file into the memory rather than one by one, 
+	  to get the name of the process utilizing maximum memory?
+	etc..
+
