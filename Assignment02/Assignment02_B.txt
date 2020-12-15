@@ -1,0 +1,9 @@
+
+Overall goal:
+	Check if you would be able to get more detailed windows process using
+		- "get-process" in Windows PowerShell
+		- "wmic process" in Windows CommandPrompt
+
+Use the following resource for more details
+	https://helpdeskgeek.com/how-to/save-a-list-of-running-processes-to-a-text-file-in-windows/ 
+
