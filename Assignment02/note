@@ -1,0 +1,7 @@
+command promt: to open process trasklist
+to save into file tasklist>path\name of file and enter
+
+
+PowerShell: 
+To see all the all the process: Get-Process
+To save as  a file on window: Get-Process >> path\filename

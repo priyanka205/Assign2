@@ -4,7 +4,7 @@ Overall goal:
 
 The file "tasklist_01.txt" was created using "tasklist > tasklist_01.txt" on a command prompt.
 
-Step 01:
+ 
 	- Check if you can run "tasklist" on your windows machine and save it to another file.
 	- Compare if the running processes are similar or different.
 
