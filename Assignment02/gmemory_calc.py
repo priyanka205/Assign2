@@ -1,6 +1,6 @@
 memory = {}
 
-with open("tasklist_02.txt", "r") as file:
+with open("new_tasklist01.txt", "r") as file:
     
     for line in file:
         if line.startswith("Image Name") or line.startswith("=") or line.startswith("\n"):
