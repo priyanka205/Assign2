@@ -1,6 +1,6 @@
 import subprocess
 import sys
-from memory_calc import process_memory
+from memo_calwith_subprocess import process_memory
 
 # subprocess.run("tasklist")
 filename = sys.argv[1]# from this we can create any file from arguments
