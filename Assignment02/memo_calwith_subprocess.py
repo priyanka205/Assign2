@@ -20,7 +20,7 @@ def process_memory(tasklist_file):
                 else:
                     memory[line_list[0]] = int(memory_value)
 
-    sorted_memory = {k: v for k, v in sorted(memory,items(), key=lamda item: item[1])}  
+    sorted_memory = {k: v for k, v in sorted(memory.items(), key=lambda item: item[1])} 
     return sorted_memory              
 
 

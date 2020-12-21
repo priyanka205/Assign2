@@ -2,8 +2,8 @@ import subprocess
 import sys
 from memo_calwith_subprocess import process_memory
 
-# subprocess.run("tasklist")
-filename = sys.argv[1]# from this we can create any file from arguments
+subprocess.run("tasklist" )
+filename = sys.argv[1]
 get_max = sys.argv[2]
 get_min = sys.argv[3]
 get_process_memory = sys.argv[4]
@@ -40,5 +40,10 @@ for process in processes:
     print(f"Memory consumed by {process} is {value}.")
 
 print("Program executed successfully:)")
+
+def count_number_of_process():
+    pass
+
+
 
 

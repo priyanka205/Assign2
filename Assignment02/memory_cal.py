@@ -1,6 +1,6 @@
 memory = list()
 
-with open("new_tasklist01.txt", "r") as file:
+with open("tasklist_02.txt", "r") as file:
     
     for line in file:
         temp_list = []
