@@ -5,3 +5,20 @@ to save into file tasklist>path\name of file and enter
 PowerShell: 
 To see all the all the process: Get-Process
 To save as  a file on window: Get-Process >> path\filename
+
+import subprocess
+import sys
+
+filename = sys.argv[1]# terminal argument
+
+with open(f'./{filename}.txt','w+') as outfile:
+    subprocess.run("tasklist",stdout=outfile)#to run the file like we do in cmd promt tracklist >> filename we did the same thing from this command in,stdout:standardout 
+
+
+# to run this argument in terminal we need to type first python .py name which we are writing code
+#  and name of file that we want to save it.
+#  for example for this: python tasklist_save_python.py my_tasklist09
+
+
+# to run the tasklist in terminal of python:
+subprocess.run("tasklist")
